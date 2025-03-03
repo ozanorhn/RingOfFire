@@ -1,0 +1,18 @@
+.field {
+    background-image: url('/assets/img/board.jpg');
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-stack {
+    position: relative;
+    img{
+        position: absolute;
+        width: 80px;
+    }
+}
